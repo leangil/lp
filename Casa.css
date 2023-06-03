@@ -146,6 +146,14 @@
     padding-left: 50px;
   }
 
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+}
+.contact-group {
+  /* margin-left: 53px; */
+}
+
 }
 
 @media (max-width: 575px) {
@@ -472,6 +480,10 @@
   font-size: 1.125rem;
   margin: 22px 0 0;
 }
+.u-section-4-bis .u-text-p {
+  font-size: 1.125rem;
+  margin: 22px 0 0;
+}
 
 .u-section-3 .u-image-1 {
   height: 338px;
@@ -736,6 +748,16 @@
   min-height: 773px;
   background-image: url("img/servicios.jpg");
   background-position: 60.92% 50%;
+}
+
+.u-section-4.u-section-4-bis .u-image-1 {
+  min-height: 773px;
+  background-image: url("img/escuelaCachorros.jpg");
+  background-position: 60.92% 50%;
+}
+.u-section-4.u-section-4-bis .u-layout-row {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -1808,7 +1830,6 @@
 
 .u-section-8 .u-form-1 {
   height: 47px;
-  width: 570px;
   margin: 39px auto 0;
 }
 
@@ -1913,7 +1934,6 @@
   position: fixed;
   bottom: 20px;
   right:20px;
-  background: #0dc243;
   border-radius: 5px;
   padding-left: 5px;
   padding-right: 5px;
@@ -1923,4 +1943,43 @@
   width: 80px;
   filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
   color: white;
+}
+
+.u-palette-contact-base{
+  color: white;
+  background-color: #ee7145;
+}
+
+.contact-group{
+  display: flex;
+  align-items: center;
+}
+.contact-group span{
+  margin-left: 10px;
+}
+
+.contact-container{
+  display: flex;
+}
+
+.contact-location{
+  padding-right: 50px;
+}
+
+.btn-footer-social-network{
+    width: 70px;
+    height: 70px;
+    /* background: #4c759c; */
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn-footer-social-network img{
+  margin-top: 10px;
+}
+
+.btn-footer-social-network-container{
+  display: inline-flex;
+  padding: 20px;
 }
