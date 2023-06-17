@@ -840,6 +840,7 @@
 .u-section-4 .u-icon-1 {
   height: 65px;
   width: 65px;
+  min-width: 65px;
   background-image: none;
   /* margin: 0 auto 0 0; */
   padding: 15px;
