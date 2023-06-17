@@ -55,7 +55,8 @@
 }
 
 .u-section-1 .subtitle{
-  text-align: center;
+  width: 50%;
+  text-align: left;
 }
 .u-section-1 .subtitle a{
   margin: 0 auto;
@@ -425,6 +426,11 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-4.u-section-4-bis .u-image-1 {
+    min-height: 773px;
+    background-image: url("img/escuelaCachorrosMobile.jpg")!important;
+    background-position: 60.92% 50%;
+  }
   .u-section-2 .u-list-1 {
     margin-bottom: 0;
     margin-left: initial;
@@ -685,9 +691,15 @@
   .u-section-3 .u-text-3 {
     margin-top: 30px;
   }
+  .about-us-footer{
+    margin-left: 0px!important;
+  }
 }
 
 @media (max-width: 575px) {
+  .about-us-footer{
+    margin-left: 0px!important;
+  }
   .u-section-3 .u-sheet-1 {
     min-height: 1599px;
   }
@@ -819,19 +831,22 @@
 }
 
 .u-section-4 .u-container-layout-3 {
-  padding: 30px 30px 19px 0;
+  /* padding: 30px 30px 19px 0; */
+  display: flex;
+  height: 104px;
+  align-items: center;
 }
 
 .u-section-4 .u-icon-1 {
   height: 65px;
   width: 65px;
   background-image: none;
-  margin: 0 auto 0 0;
+  /* margin: 0 auto 0 0; */
   padding: 15px;
 }
 
 .u-section-4 .u-text-4 {
-  margin: -65px 0 0 87px;
+  /* margin: -65px 0 0 87px; */
 }
 
 .u-section-4 .u-container-layout-4 {
@@ -1982,4 +1997,14 @@
 .btn-footer-social-network-container{
   display: inline-flex;
   padding: 20px;
+}
+
+.about-us-footer{
+  margin-left: 69px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.p-vineta{
+  margin-left: 10px!important;
 }
